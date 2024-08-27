@@ -2,9 +2,11 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using WebMVC.Models;
 
+
+
 namespace WebMVC.Controllers;
 
-public class Studentcontroller : Controller
+public class StudentController : Controller
 {
     
 
@@ -15,7 +17,7 @@ public class Studentcontroller : Controller
     [HttpPost]
     public IActionResult Index(Student sd)
         {
-            string strOutput = "Phong xin chao " + sd.StudentId + "-" + sd.Name + "-" + sd.Address;
+            string strOutput = "Phong xin chao " + sd.StudentID + "-" + sd.Name + "-" + sd.Address;
             ViewBag.Message = strOutput;
             return View();
         }
