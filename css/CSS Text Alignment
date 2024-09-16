@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+}
+
+h3 {
+  text-align: right;
+}
+</style>
+</head>
+<body>
+
+<h1>Nguyen The Phong -2021050506 (center)</h1>
+<h2> Nguyen The Phong -2021050506 (left)</h2>an
+<h3>Nguyen The Phong -2021050506(right)</h3>
+
+<p>The three headings above are aligned center, left and right.</p>
+
+</body>
+</html>

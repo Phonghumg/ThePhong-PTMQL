@@ -17,7 +17,7 @@ public class StudentController : Controller
     [HttpPost]
     public IActionResult Index(Student sd)
         {
-            string strOutput = "Phong xin chao " + sd.StudentID + "-" + sd.Name + "-" + sd.Address;
+            string strOutput = "Phong xin chao " + sd.StudentID + "-" + sd.Name + "-" + sd.Address + "-" + sd.Email;
             ViewBag.Message = strOutput;
             return View();
         }
