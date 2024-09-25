@@ -15,5 +15,6 @@ namespace NetMvc
         }
 
         public DbSet<NetMvc.Models.Student> Student { get; set; } = default!;
+        public DbSet<NetMvc.Models.Employee> Employee { get; set; } = default!;
     }
 }
