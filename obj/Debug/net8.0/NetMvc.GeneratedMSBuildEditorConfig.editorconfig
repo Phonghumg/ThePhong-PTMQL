@@ -17,71 +17,131 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NetMvc
 build_property.RootNamespace = NetMvc
-build_property.ProjectDir = D:\DemoMVC\NetMvc\
+build_property.ProjectDir = d:\DemoMVC\NetMvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DemoMVC\NetMvc
+build_property.MSBuildProjectDirectory = d:\DemoMVC\NetMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DemoMVC/NetMvc/Views/Employee/Create.cshtml]
+[d:/DemoMVC/NetMvc/NetMvc/Views/Employee/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXEVtcGxveWVlXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Employee/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXEVtcGxveWVlXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/Student/Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFN0dWRlbnRcU3R1ZGVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/NetMvc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[d:/DemoMVC/NetMvc/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Employee/Index.cshtml]
+[d:/DemoMVC/NetMvc/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Home/Index.cshtml]
+[d:/DemoMVC/NetMvc/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Home/Privacy.cshtml]
+[d:/DemoMVC/NetMvc/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/Error.cshtml]
+[d:/DemoMVC/NetMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[d:/DemoMVC/NetMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Create.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Delete.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Details.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Edit.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Index.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Student.cshtml]
+[d:/DemoMVC/NetMvc/Views/Student/Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/_ViewImports.cshtml]
+[d:/DemoMVC/NetMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/_ViewStart.cshtml]
+[d:/DemoMVC/NetMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/_Layout.cshtml]
+[d:/DemoMVC/NetMvc/NetMvc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = TmV0TXZjXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-01gkmmq1ur
+
+[d:/DemoMVC/NetMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cycr363z9f
