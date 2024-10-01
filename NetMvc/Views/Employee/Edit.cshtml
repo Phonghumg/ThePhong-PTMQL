@@ -1,16 +1,16 @@
 @model NetMvc.Models.Employee
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
 
-<h1>Create</h1>
+<h1>Edit</h1>
 
 <h4>Employee</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Create">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
@@ -22,11 +22,7 @@
                 <input asp-for="Phone" class="form-control" />
                 <span asp-validation-for="Phone" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="CCCD" class="control-label"></label>
-                <input asp-for="CCCD" class="form-control" />
-                <span asp-validation-for="CCCD" class="text-danger"></span>
-            </div>
+            <input type="hidden" asp-for="CCCD" />
             <div class="form-group">
                 <label asp-for="HoTen" class="control-label"></label>
                 <input asp-for="HoTen" class="form-control" />
@@ -38,7 +34,7 @@
                 <span asp-validation-for="QueQuan" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Save" class="btn btn-primary" />
             </div>
         </form>
     </div>

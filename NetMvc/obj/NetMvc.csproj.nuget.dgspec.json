@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\DemoMVC\\NetMvc\\NetMvc.csproj": {}
+    "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\NetMvc.csproj": {}
   },
   "projects": {
-    "D:\\DemoMVC\\NetMvc\\NetMvc.csproj": {
+    "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\NetMvc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\DemoMVC\\NetMvc\\NetMvc.csproj",
+        "projectUniqueName": "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\NetMvc.csproj",
         "projectName": "NetMvc",
-        "projectPath": "D:\\DemoMVC\\NetMvc\\NetMvc.csproj",
+        "projectPath": "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\NetMvc.csproj",
         "packagesPath": "C:\\Users\\Acer\\.nuget\\packages\\",
-        "outputPath": "D:\\DemoMVC\\NetMvc\\obj\\",
+        "outputPath": "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Acer\\AppData\\Roaming\\NuGet\\NuGet.Config",

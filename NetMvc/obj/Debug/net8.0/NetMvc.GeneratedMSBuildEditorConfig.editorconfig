@@ -17,71 +17,95 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NetMvc
 build_property.RootNamespace = NetMvc
-build_property.ProjectDir = D:\DemoMVC\NetMvc\
+build_property.ProjectDir = C:\Users\Acer\Downloads\new\ThePhong-PTMQL\NetMvc\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\DemoMVC\NetMvc
+build_property.MSBuildProjectDirectory = C:\Users\Acer\Downloads\new\ThePhong-PTMQL\NetMvc
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/DemoMVC/NetMvc/Views/Employee/Create.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Employee/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Employee/Index.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Employee/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Employee/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Employee/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Employee/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wbG95ZWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Home/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Person/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Home/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Person/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/Error.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Person/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Person/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Person/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Create.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Delete.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Details.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Edit.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Index.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Student/Student.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Student/Student.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxTdHVkZW50LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/_ViewImports.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/_ViewStart.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/DemoMVC/NetMvc/Views/Shared/_Layout.cshtml]
+[C:/Users/Acer/Downloads/new/ThePhong-PTMQL/NetMvc/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-cycr363z9f

@@ -2,13 +2,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace NetMvc.Models
 {
-    public class Employee
+    public class Employee : Person
     {
-        [Key]
-        
-    public string FullName {get; set;}
 
-    public string Address {get; set;}
+
+   
+
 
     public string Email {get; set;}
 

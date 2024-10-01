@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using NetMvc.Models;
 
-namespace NetMvc
+namespace NetMvc.Data
 {
     public class ApplicationDbContext : DbContext
     {
@@ -16,5 +16,6 @@ namespace NetMvc
 
         public DbSet<NetMvc.Models.Student> Student { get; set; } = default!;
         public DbSet<NetMvc.Models.Employee> Employee { get; set; } = default!;
+        public DbSet<NetMvc.Models.Person> Person { get; set; } = default!;
     }
 }

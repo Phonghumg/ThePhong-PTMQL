@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/L+L9MZWjEPZZZXsP4NT38cTzmt32tIpSoaA+8gv/DpD+MDykvdM/soPXw3m3+HUK74BKh5fBF2ENMS7uWXMqA==",
+  "dgSpecHash": "ot6blIL41Z/cLmLMjyhjSYk3UqbGe737YVa5XqwSVtD7sx79MDpnUA5BnoN+pAFn7Bqz9FE7AuHYIOq+GJ/Txg==",
   "success": true,
-  "projectFilePath": "D:\\DemoMVC\\NetMvc\\NetMvc.csproj",
+  "projectFilePath": "C:\\Users\\Acer\\Downloads\\new\\ThePhong-PTMQL\\NetMvc\\NetMvc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Acer\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

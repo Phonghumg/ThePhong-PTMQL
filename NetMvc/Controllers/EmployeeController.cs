@@ -1,7 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using NetMvc;
+using NetMvc.Data;
 using NetMvc.Models;
 
 namespace NetMvc.Controllers
@@ -14,18 +18,43 @@ namespace NetMvc.Controllers
         {
             _context = context;
         }
-    
-    public IActionResult Create()
+
+        // GET: Employee
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Employee.ToListAsync());
+        }
+
+        // GET: Employee/Details/5
+        public async Task<IActionResult> Details(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _context.Employee
+                .FirstOrDefaultAsync(m => m.CCCD == id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            return View(employee);
+        }
+
+        // GET: Employee/Create
+        public IActionResult Create()
         {
             return View();
         }
-        public async Task<IActionResult> Index()
-        {
-            return View(await _context.Employee .ToListAsync());
-        }
+
+        // POST: Employee/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("FullName,Address,Email,Phone")] Employee employee)
+        public async Task<IActionResult> Create([Bind("Email,Phone,CCCD,HoTen,QueQuan")] Employee employee)
         {
             if (ModelState.IsValid)
             {
@@ -35,6 +64,94 @@ namespace NetMvc.Controllers
             }
             return View(employee);
         }
-        
+
+        // GET: Employee/Edit/5
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _context.Employee.FindAsync(id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+            return View(employee);
+        }
+
+        // POST: Employee/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to.
+        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(string id, [Bind("Email,Phone,CCCD,HoTen,QueQuan")] Employee employee)
+        {
+            if (id != employee.CCCD)
+            {
+                return NotFound();
+            }
+
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(employee);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!EmployeeExists(employee.CCCD))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            return View(employee);
+        }
+
+        // GET: Employee/Delete/5
+        public async Task<IActionResult> Delete(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var employee = await _context.Employee
+                .FirstOrDefaultAsync(m => m.CCCD == id);
+            if (employee == null)
+            {
+                return NotFound();
+            }
+
+            return View(employee);
+        }
+
+        // POST: Employee/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(string id)
+        {
+            var employee = await _context.Employee.FindAsync(id);
+            if (employee != null)
+            {
+                _context.Employee.Remove(employee);
+            }
+
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(Index));
+        }
+
+        private bool EmployeeExists(string id)
+        {
+            return _context.Employee.Any(e => e.CCCD == id);
+        }
     }
 }

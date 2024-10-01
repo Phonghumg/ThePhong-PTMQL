@@ -1,4 +1,4 @@
-@model IEnumerable<NetMvc.Models.Employee>
+@model IEnumerable<NetMvc.Models.Person>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,12 +13,6 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Email)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.HoTen)
             </th>
             <th>
@@ -30,12 +24,6 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Phone)
-            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.HoTen)
             </td>
